@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Vendi</string>
+    <string name="facebook_app_id">305582576441462</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next">Próximo</string>
+    <string name="back">Voltar</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_post_go">Avançar</string>
+    <string name="action_post">Avançar ></string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="title_activity_register">Registar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="advance_text">Vamos lá</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_field_required">Informação obrigatória</string>
+    <string name="prompt_name">Seu nome</string>
+    <string name="code_text">Digite o código que enviamos pra você</string>
+    <string name="title_activity_post">PostActivity</string>
+
+    <string name="alert_error">Opa! Alguma coisa deu errado.</string>
+    <string name="alert_register">Tudo certo! Nós enviamos um email pra você. Dá uma olhada.</string>
+    <string name="user_keep_logged">Mantenha minha senha.</string>
+    <string name="user_login_wait">Procurando por você...</string>
+    <string name="user_login_invalid">Ops! Não achamos você.</string>
+    <string name="user_login_notconfirmed">Ops! Achamos você mas você ainda não confirmou seu código que enviamos pra você.</string>
+    <string name="user_login_blocked">Parece que tem algum problema com seu cadastro. Vamos resolver isso rapidinho.</string>
+
+    <string name="post_sendtoserver">Preparado... apontar... vai...</string>
+    <string name="post_price">Preço</string>
+
+    <string name="menu_myaccount">Meu perfil</string>
+    <string name="menu_posts">Minha lojinha</string>
+    <string name="menu_follow">Seguidas</string>
+    <string name="menu_fav">Curtidas</string>
+    <string name="menu_messages">Conversas</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_notification">Notificações</string>
+    <string name="menu_contato">Contato</string>
+    <string-array name="brands">
+        <item>Loola</item>
+        <item>Carters</item>
+        <item>Ralph Lauren</item>
+        <item>Gap</item>
+        <item>Rags to Raches</item>
+        <item>Aquarium Kidz</item>
+        <item>Indikidual</item>
+        <item>Soft Gallery</item>
+        <item>Boy + Girl</item>
+        <item>The Mini Classy</item>
+        <item>Freshly Picked</item>
+        <item>Même</item>
+        <item>Primary</item>
+        <item>Agatha Cub</item>
+        <item>Nico Nico</item>
+        <item>Lot801</item>
+        <item>Salt City Emporium</item>
+        <item>Lilica e Tigor</item>
+        <item>Lilica Ripilica</item>
+        <item>Fabula</item>
+        <item>Richards Kids</item>
+        <item>HM</item>
+        <item>Brandili</item>
+        <item>Marisol</item>
+        <item>Luppo</item>
+        <item>Poti Poti</item>
+        <item>Zara</item>
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>Lacoste</item>
+        <item>Calvin Klein</item>
+        <item>Tommy Hilfiger</item>
+        <item>Crocs</item>
+        <item>Converse All Star</item>
+        <item>Activision</item>
+        <item>Animal Planet</item>
+        <item>Avigo</item>
+        <item>Barbie</item>
+        <item>Chicco</item>
+        <item>Crayola</item>
+        <item>Creative Design</item>
+        <item>DC Comics</item>
+        <item>Despicable Me</item>
+        <item>Disney</item>
+        <item>Disney Pixar</item>
+        <item>DreamWorks</item>
+        <item>FAI Schwarz</item>
+        <item>Fisher-Price</item>
+        <item>Funko</item>
+        <item>Imaginarium</item>
+        <item>John Deere</item>
+        <item>Just Play</item>
+        <item>LEGO</item>
+        <item>Marvel</item>
+        <item>Matchbox</item>
+        <item>Mattel</item>
+        <item>Mega Bloks</item>
+        <item>Minions</item>
+        <item>Nerf</item>
+        <item>Nick Jr</item>
+        <item>Nickelodeon</item>
+        <item>Nintendo</item>
+        <item>Peg Perego</item>
+        <item>Play-doh</item>
+        <item>Peppa</item>
+        <item>Playmobil</item>
+        <item>Playskool</item>
+        <item>Pokemon</item>
+        <item>Power Rangers</item>
+        <item>Power Wheels</item>
+        <item>Razor</item>
+        <item>Sharper Image</item>
+        <item>Skylanders</item>
+        <item>Spin Master</item>
+        <item>Star Wars</item>
+        <item>Super Wings</item>
+        <item>Monster High</item>
+        <item>Hello Kitty</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="menu_post_view_user">
+        <item>Editar</item>
+        <item>Excluir</item>
+    </string-array>
+    <string-array name="menu_post_view">
+        <item>Denunciar</item>
+    </string-array>
+    <string-array name="menu_profile_user">
+        <item>Editar</item>
+        <item>Excluir conta</item>
+    </string-array>
+    <string-array name="menu_profile">
+        <item>Seguir</item>
+        <item>Denunciar</item>
+    </string-array>
+    <string name="title_activity_login_fb">Sign in</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>

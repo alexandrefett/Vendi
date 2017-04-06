@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_posts"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_posts"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/my_messages"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_messages"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/my_likes"
+            android:icon="@drawable/like_on"
+            android:title="@string/menu_fav"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/my_follow"
+            android:icon="@drawable/ic_action_users"
+            android:title="@string/menu_follow"
+            app:actionLayout="@layout/menu_counter"/>
+        <item
+            android:id="@+id/my_notification"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_notification" />
+        <item
+            android:id="@+id/my_share"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/my_contact"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_contato" />
+        <item
+            android:id="@+id/my_about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sobre o Vendi" />
+    </group>
+</menu>

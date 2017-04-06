@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/view_background"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    >
+                </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?attr/colorPrimary"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_title"
+            android:hint="Um título bem chamativo"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_below="@+id/tableRow"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_desc"
+            android:lines="3"
+            android:background="@drawable/border"
+            android:hint="Faça uma descrição bem bacana"
+            android:gravity="top"
+            android:padding="5dp"
+            android:layout_below="@+id/post_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:inputType="textCapSentences|textMultiLine"/>
+
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_brand"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_below="@+id/post_desc"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:hint="Coisas de marcas são mais procuradas"
+            android:inputType="textCapWords"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_price"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:layout_below="@+id/post_brand"
+            android:layout_alignEnd="@+id/post_brand"
+            android:inputType="numberDecimal"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/imgPreview1"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_camera"
+                    android:background="@drawable/border"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/imgPreview2"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_camera"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/border"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/imgPreview3"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_camera"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/border"/>
+        </TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preço R$"
+                    android:id="@+id/textView9"
+                    android:layout_alignBottom="@+id/post_price"
+                    android:layout_toStartOf="@+id/post_price"
+                    android:layout_alignTop="@+id/post_price"
+                    android:gravity="center"/>
+        </RelativeLayout>
+</LinearLayout>

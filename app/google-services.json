@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "509197457426",
+    "firebase_url": "https://fir-vendi.firebaseio.com",
+    "project_id": "firebase-vendi",
+    "storage_bucket": "firebase-vendi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509197457426:android:03230774385c200f",
+        "android_client_info": {
+          "package_name": "com.vendi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509197457426-s8mln8peba4lja8qbdkaueo0nsvub76f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vendi",
+            "certificate_hash": "8E8881D3E0480B8034B6D038766492D91E83485B"
+          }
+        },
+        {
+          "client_id": "509197457426-fbeqv40lmc4birdol8r2cq7cjd43pq4l.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "509197457426-dem13hbs2fesr4in4n9mg1v237f4f0qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6e9UC51z1_o0Ck-uSWZ7Hzqw1u9kRiHo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509197457426-fbeqv40lmc4birdol8r2cq7cjd43pq4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
